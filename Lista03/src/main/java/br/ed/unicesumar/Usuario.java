@@ -1,0 +1,24 @@
+package br.ed.unicesumar;
+
+public class Usuario{
+    private String nome;
+    private String senha;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setSenha(String senha) {
+        if(senha.length()>=8){
+            this.senha = senha;
+        }
+    }
+}
