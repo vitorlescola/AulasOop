@@ -12,5 +12,8 @@ public class Main {
 
         Veiculo fusca=new Veiculo("WV","Fusca",1976);
         fusca.exibirDados();
+
+        uno.setQtdPortas(3);
+        System.out.printf("\n%d",uno.getQtdPortas());
     }
 }

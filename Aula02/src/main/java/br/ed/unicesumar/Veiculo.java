@@ -47,6 +47,8 @@ public class Veiculo {
     }
 
     public void setQtdPortas(int qtdPortas) {
-        this.qtdPortas = qtdPortas;
+        if(qtdPortas==4||qtdPortas==8){
+            this.qtdPortas = qtdPortas;
+        }
     }
 }
